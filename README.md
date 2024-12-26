@@ -126,11 +126,13 @@ gcr.io/k8s-minikube/storage-provisioner | v5 | 6e38f40d628d | 3 years ago | 31.5
 
 >> ## Run docker container
 >>> `docker run first-image`
+>>> 
 >>> Hello World
 
 
 >> ## Running kubernetes deployment with local image
 >>> `kubectl apply -f deployment.yaml `
+>>>
 >>> deployment.apps/hello-world-deployment created
 
 >> ## Checking pods
@@ -141,6 +143,7 @@ gcr.io/k8s-minikube/storage-provisioner | v5 | 6e38f40d628d | 3 years ago | 31.5
 
 >> ## Checking pods logs
 >>> `kubectl logs hello-world-deployment-5c94b55dd8-dmlft`
+>>> 
 >>> Hello World
 
 >> ## Cleaning up
